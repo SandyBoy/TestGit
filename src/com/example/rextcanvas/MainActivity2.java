@@ -11,8 +11,6 @@ public class MainActivity2 extends Activity {
 	protected void onCreate(Bundle savedInstanceState) {
 		super.onCreate(savedInstanceState);
 		setContentView(R.layout.activity_main);
-		WindowManager vmage=(WindowManager) getApplicationContext().getSystemService(Context.WINDOW_SERVICE);
-		WindowManager.LayoutParams vmParams=new WindowManager.LayoutParams();
 	}
 
 }
